@@ -98,7 +98,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
 
     /*definindo o valor de tamanho de tela no qual o css irá mudar*/
     .container {
@@ -118,4 +118,17 @@ footer {
             "section3"
             "footer";
     }
+    .assinatura {
+        width: 80px;
+    }
+}
+
+footer > div {
+    font-size: 0.7rem;
+    width: 13%;
+
+}
+
+a {
+    text-decoration: none;
 }
