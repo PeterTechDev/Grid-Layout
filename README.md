@@ -3,7 +3,7 @@
 
 <br>
 
-<a href="https://petertechdev.github.io/layout-grid-responsivo/" target="_blank" rel="noopener noreferrer">
+<a href="https://petertechdev.github.io/Grid-Layout/" target="_blank" rel="noopener noreferrer">
     <img align="center" src="https://user-images.githubusercontent.com/78622386/126405165-06968248-5884-4a41-afa3-f1da9ae2717f.gif">
 </a>
 <br>
