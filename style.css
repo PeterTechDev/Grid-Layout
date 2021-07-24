@@ -50,7 +50,7 @@ nav {
 main {
     background: #e9e8b7;
     grid-area: main;
-    
+
     border-radius: 6px;
     padding-top: 5px;
 }
@@ -95,6 +95,25 @@ footer {
     
     border-radius: 6px;
     padding-top: 5px;
+    display: flex;
+}
+
+footer {
+    display: flex;
+
+    /* justify-content: center; */
+}
+
+/* /* footer span {
+    align-self: flex-start;
+
+    background-color: gray;
+} */
+
+.assinatura {
+    justify-self: right;
+
+    background-color: red;
 }
 
 
@@ -118,8 +137,29 @@ footer {
             "section3"
             "footer";
     }
+
+     footer{
+        height: 10vh;
+    }
     .assinatura {
         width: 80px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+
+        grid-template-rows: 0.4fr 0.3fr 2fr 1.3fr 1fr .3fr;
+
+
+        grid-template-areas:
+            /*definindo novo layout*/
+            "header header header header"
+            "nav nav nav nav"
+            "main main main aside  "
+            "section1 section1 section2 section2 "
+            "section3 section3 section3 section3"
+            "footer footer footer footer "
     }
 }
 
@@ -132,3 +172,8 @@ footer > div {
 a {
     text-decoration: none;
 }
+
+/* 1 - 480px cel
+2 - 481-768
+3 - 769-1279
+4 - 1280+ */
