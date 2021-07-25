@@ -95,29 +95,34 @@ footer {
     
     border-radius: 6px;
     padding-top: 5px;
+
     display: flex;
+    justify-content: center;
 }
 
-footer {
-    display: flex;
 
-    /* justify-content: center; */
-}
-
-/* /* footer span {
-    align-self: flex-start;
+footer span {
+    justify-self: center;
 
     background-color: gray;
-} */
-
-.assinatura {
-    justify-self: ;
-
-    background-color: red;
 }
 
+.assinatura {
+    width: 10%;
+    position: fixed;
+    bottom: 3px;
+    right: 5px;
+    background-color: rgba(19, 9, 9, 0.65);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
 
-@media only screen and (max-width: 600px) {
+.assinatura p {
+    margin: 0 0 10px 0;
+    font-size: 1.3em;
+}
+
+@media only screen and (min-width: 600px) {
 
     /*definindo o valor de tamanho de tela no qual o css irá mudar*/
     .container {
@@ -141,6 +146,7 @@ footer {
      footer{
         height: 10vh;
     }
+
     .assinatura {
         width: 80px;
     }
