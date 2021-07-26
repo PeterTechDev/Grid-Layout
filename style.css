@@ -104,25 +104,56 @@ footer {
 footer span {
     justify-self: center;
 
-    background-color: gray;
 }
 
 .assinatura {
     width: 10%;
+    height: 20%;
     position: fixed;
     bottom: 3px;
     right: 5px;
     background-color: rgba(19, 9, 9, 0.65);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    padding: 0 5px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "text text"
+    "linkedin github"
+    ;
 }
 
 .assinatura p {
-    margin: 0 0 10px 0;
-    font-size: 1.3em;
+    grid-area: text;
 }
 
-@media only screen and (min-width: 600px) {
+#linkedin {
+    grid-area: linkedin;
+}
+
+#github {
+    grid-area: github;
+    /* display: flex; */
+    /* size: cover; */
+}
+
+#github img {
+    size: cover;    
+}
+
+
+
+
+.assinatura p {
+    margin: 0 0 10px 0;
+    font-size: .7em;
+    color: #ffff;
+}
+
+@media only screen and (max-width: 600px) {
 
     /*definindo o valor de tamanho de tela no qual o css irá mudar*/
     .container {
