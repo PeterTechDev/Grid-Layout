@@ -136,8 +136,7 @@ footer span {
 
 #github {
     grid-area: github;
-    /* display: flex; */
-    /* size: cover; */
+
 }
 
 #github img {
@@ -153,7 +152,7 @@ footer span {
     color: #ffff;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 
     /*definindo o valor de tamanho de tela no qual o css irá mudar*/
     .container {
@@ -181,7 +180,7 @@ footer span {
     .assinatura {
         width: 80px;
     }
-}
+} */
 
 @media only screen and (max-width: 800px) {
     .container {
