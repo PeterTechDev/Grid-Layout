@@ -1,5 +1,5 @@
 <h1>Projeto Grid Layout</h1>
-<p>Esta página foi desenvolvida para praticar um pouco do que aprendemos até aqui na matéria de frontend I no curso Certified Tech Developer da Digital house</p>
+<p>Esta página foi desenvolvida com HTML e CSS para praticar o uso de GRID layout no curso Certified Tech Developer da Digital house</p>
 
 <br>
 
